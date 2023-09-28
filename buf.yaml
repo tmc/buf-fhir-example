@@ -1,0 +1,11 @@
+version: v1
+name: github.com/tmc/buf-fhir-example
+lint:
+  use:
+  - DEFAULT
+  service_suffix: Service
+breaking:
+  use:
+  - FILE
+deps:
+  - buf.build/tmc/fhir
