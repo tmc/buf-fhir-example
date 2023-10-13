@@ -1,0 +1,22 @@
+
+# Package - acme.fhir.v1.example
+# Service - FHIRServer
+FHIRServer: {
+  shape: class
+}
+
+# Edges from package to service
+"acme.fhir.v1.example" -> FHIRServer
+
+# Class - PersonContainer
+PersonContainer: {
+  shape: class
+  person: Person
+}
+
+PersonContainer -> Person
+
+
+
+
+

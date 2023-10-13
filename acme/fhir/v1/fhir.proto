@@ -2,7 +2,10 @@ syntax = "proto3";
 
 package acme.fhir.v1.example;
 
-import "proto/google/fhir/proto/r4/uscore.proto";
+import "proto/google/fhir/proto/r4/core/resources/person.proto";
 
+message PersonContainer {
+  google.fhir.r4.core.Person person = 1;
+}
 
 service FHIRServer {}
