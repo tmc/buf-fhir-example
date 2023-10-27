@@ -4,5 +4,5 @@ deps:
   - remote: buf.build
     owner: tmc
     repository: fhir
-    commit: a4ff1fe01ac348248638916a3342d3eb
-    digest: shake256:293628c83fdf978350c6acf1d984983a62da8b2878d53dabd647bf6bbef0c694075e69cbb0c750fe681edc863550cf60eefd72ca6f5163f506dde514b08061a4
+    commit: 2884b02ee85a40a7a7719e5cac6b9731
+    digest: shake256:ef3c8cf92d92d3b331d609819e7b84b1bbb9183d88cd1b197d70bebd2d788f50e93de6c13913504c6926035ca4539830c2f643c698405c5edf166a2bc0aee52b

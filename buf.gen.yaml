@@ -5,6 +5,7 @@ managed:
     default: github.com/tmc/buf-fhir-example
     except:
       - buf.build/googleapis/googleapis
+      - buf.build/tmc/fhir
 plugins:
   - name: d2
     out: .
